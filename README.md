@@ -1,1 +1,1 @@
-# orlundo-blog
+# smart-contract-journal
