@@ -1,4 +1,3 @@
-import Head from "next/head";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
@@ -6,12 +5,8 @@ import Post from "../components/Post";
 import { sortByDate } from "../utils";
 
 export default function Home({ posts }) {
-  console.log(posts);
   return (
     <div>
-      <Head>
-        <title>Dev Blog</title>
-      </Head>
       <div className="posts">
         {posts.map((post, index) => (
           // eslint-disable-next-line react/jsx-key
